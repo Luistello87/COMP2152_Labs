@@ -29,3 +29,5 @@ else:
         print("Scissors beats Paper!")
     else:
         print("You lose!")
+
+        # Link: https://github.com/Luistello87/COMP2152_Labs
