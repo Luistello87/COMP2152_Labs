@@ -1,7 +1,7 @@
 # ============================================================
 #  WEEK 06 LAB: NETWORK DIAGNOSTIC LOGGER
 #  COMP2152
-#  Luis Tello
+#  LUIS TELLO
 # ============================================================
 #
 #  This program runs network commands (ping, nslookup, ifconfig),
