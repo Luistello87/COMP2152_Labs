@@ -112,8 +112,9 @@ def count_by_severity():
 # Always close the connection in a finally block.
 def safe_query(query):
     conn = sqlite3.connect(DB_NAME)
-    cursor = conn.cursor()
+    
     try:
+        cursor = conn.cursor()
         cursor.execute(query)
         rows = cursor.fetchall()
         return rows
